@@ -56,7 +56,7 @@ def predict():
         return render_template('index.html', predicted_value="The customer has the RISK of churn according to the ML model that computes churn probability with 87% Accuracy")
     else:
         
-        return render_template('index.html', predicted_value="The customer DO NOT have the RISK of churn according to the ML model that computes churn probability with 87% Accuracy"))
+        return render_template('index.html', predicted_value="The customer DO NOT have the RISK of churn according to the ML model that computes churn probability with 87% Accuracy")
 
 
 if __name__ == '__main__':

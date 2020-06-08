@@ -59,7 +59,6 @@ def predict():
         
         return render_template('index.html', 
                                predicted_value="The customer DO NOT have the RISK of churn according to the ML model that computes churn probability with 87% Accuracy\nSee https://github.com/berkarcan/Churn-prediction-of_bank_customers-by-selecting-from-11-tuned-models for details of the model")
-    else:
 
 
 if __name__ == '__main__':

@@ -33,7 +33,7 @@ def predict():
     df_input = pd.DataFrame(df_input)
     
     sample_df = pd.DataFrame(columns = main_cols)
-    clean_df = clean_data(df_input)
+    clean_df = data_encode(df_input)
     main_df = sample_df.append(clean_df,sort=False)
     main_df = main_df.fillna(0)
     print(main_df)

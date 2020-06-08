@@ -16,7 +16,7 @@
  <div class="login">
   <h1>Prediction of Churn from the Bank</h1>
  
-  <img src = "https://github.com/berkarcan/Heroku-Churn-Ensembled-Model/blob/master/templates/image1.jpg", alt = ""> 
+  <img src = "https://github.com/berkarcan/Heroku-Churn-Ensembled-Model/raw/master/templates/image1.jpg", alt = ""> 
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
@@ -37,7 +37,18 @@
    <br>
    <br>
    {{ predicted_value }}
-
+   
+   <br>
+   <br>
+   <div class="text">
+   <pre>
+   The model computes churn classification with 87% Accuracy using a sample of 1000 bank customers.
+   <br>
+   See the model for details: https://github.com/berkarcan/Churn-prediction-of_bank_customers-by-selecting-from-11-tuned-models
+   </pre>
+    
+   </div>
+  
  </div>
 
 

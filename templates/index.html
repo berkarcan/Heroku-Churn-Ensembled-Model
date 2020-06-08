@@ -16,11 +16,11 @@
  <div class="login">
   <h1>Churn Prediction Analysis</h1>
  
-  <img src = "image1.jpg", alt = "" /> 
+  <img src = "image1.jpg", alt = "WHO WILL CHURN FROM THE BANK"> 
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="CreditScore" placeholder="Credit Score(between 350 and 850)" required="required" />
+      <input type="text" name="CreditScore" placeholder="Credit Score(max 850)" required="required" />
         <input type="text" name="Geography" placeholder="Geography (Germany, France or Spain)" required="required" />
     <input type="text" name="Gender" placeholder="Gender(Male or Female)" required="required" />
     <input type="text" name="Age" placeholder="Age(e.g., 20)" required="required" />
@@ -29,7 +29,7 @@
     <input type="text" name="NumOfProducts" placeholder="Num Of Products(e.g., 2)" required="required" />
         <input type="text" name="HasCrCard" placeholder="Has Credit Card(1=Yes, 0=No)" required="required" />
     <input type="text" name="IsActiveMember" placeholder="Is Active Member?(1=Yes, 0=No)" required="required" />
-    <input type="text" name="EstimatedSalary" placeholder="Estimated Salary(eg: 25000)" required="required" />
+    <input type="text" name="EstimatedSalary" placeholder="Estimated Salary(e.g., 25000)" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>

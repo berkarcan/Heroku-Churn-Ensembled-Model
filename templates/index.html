@@ -20,15 +20,15 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="CreditScore" placeholder="Credit Score(eg: 632)" required="required" />
-        <input type="text" name="Geography" placeholder="Geography (Germany, France, Spain)" required="required" />
-    <input type="text" name="Gender" placeholder="Gender(Male, Female)" required="required" />
-    <input type="text" name="Age" placeholder="Age(eg: 25)" required="required" />
-        <input type="text" name="Tenure" placeholder="Tenure(Time since member)" required="required" />
-    <input type="text" name="Balance" placeholder="Balance(eg: 500000)" required="required" />
-    <input type="text" name="NumOfProducts" placeholder="Num Of Products(eg: 2)" required="required" />
-        <input type="text" name="HasCrCard" placeholder="Has Credit Card('1'=Yes, '0'=No)" required="required" />
-    <input type="text" name="IsActiveMember" placeholder="Is Active Member?('1'=Yes, '0'=No)" required="required" />
+      <input type="text" name="CreditScore" placeholder="Credit Score(between 350 and 850)" required="required" />
+        <input type="text" name="Geography" placeholder="Geography (Germany, France or Spain)" required="required" />
+    <input type="text" name="Gender" placeholder="Gender(Male or Female)" required="required" />
+    <input type="text" name="Age" placeholder="Age(e.g., 20)" required="required" />
+        <input type="text" name="Tenure" placeholder="Tenure(Membership years)" required="required" />
+    <input type="text" name="Balance" placeholder="Balance(e.g., 20000)" required="required" />
+    <input type="text" name="NumOfProducts" placeholder="Num Of Products(e.g., 2)" required="required" />
+        <input type="text" name="HasCrCard" placeholder="Has Credit Card(1=Yes, 0=No)" required="required" />
+    <input type="text" name="IsActiveMember" placeholder="Is Active Member?(1=Yes, 0=No)" required="required" />
     <input type="text" name="EstimatedSalary" placeholder="Estimated Salary(eg: 25000)" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>

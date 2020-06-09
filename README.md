@@ -7,4 +7,5 @@ https://github.com/berkarcan/Churn-prediction-of_bank_customers-by-selecting-fro
 https://churn-ensembled-dtre-rf-gbm.herokuapp.com
 
 The screetshot of the online deployment is:
+
 ![](heroku_web.jpg)

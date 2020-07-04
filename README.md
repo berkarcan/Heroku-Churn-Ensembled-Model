@@ -1,4 +1,4 @@
-# Heroku-Churn-Ensembled-Model
+# Find the Churn on Herokuapp web site using an ensembled model result
 * Online deployment of Churn-prediction-of_bank_customers-by-selecting-from-11-tuned-models project
 https://github.com/berkarcan/Churn-prediction-of_bank_customers-by-selecting-from-11-tuned-models
 * This model was run on Kaggle in a simplified version without visualisations. See the model at https://www.kaggle.com/berkanacar/tune-11-models-ensemble-predict-churn-and-deploy
